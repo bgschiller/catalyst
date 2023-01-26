@@ -32,7 +32,7 @@ Catalyst will automatically convert the classes name; removing the trailing `Ele
 By convention Catalyst controllers end in `Element`; Catalyst will omit this when generating a tag name. The `Element` suffix is _not_ required - just convention. All examples in this guide use `Element` suffixed names.
 
 {% capture callout %}
-Remember! A class name _must_ include at least two CamelCased words (not including the `Element` suffix). One-word elements will raise exceptions. Example of good names: `UserListElement`, `SubTaskElement`, `PagerContainerElement`
+Remember! A class name _must_ include at least two TitleCased words (not including the `Element` suffix). One-word elements will raise exceptions. Example of good names: `UserListElement`, `SubTaskElement`, `PagerContainerElement`
 {% endcapture %}{% include callout.md %}
 
 
